@@ -1,0 +1,55 @@
+body {
+  /*background: #82c9ce;*/
+  background-repeat: no-repeat;
+  font-family: Georgia, "Times New Roman", serif;
+  padding: 10px 5% 10px 5%;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+li {
+  padding-bottom: 5px;
+  line-height: 1.4;
+}
+
+div.picture {
+  padding: 15px;
+  float:right;
+}
+
+div#header {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+div#header_title {
+
+}
+
+div#header_date {
+  float:right;
+  position:relative;
+  top:-60px;
+  right:150px;
+}
+
+table.center {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+table {
+  background-color: #efefef;
+}
+
+h1 {
+  text-align: center;
+}
