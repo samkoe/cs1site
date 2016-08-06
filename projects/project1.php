@@ -31,10 +31,10 @@
 
 <h1>Project 1: Cloning a Filesystem</h1>
 <h2>Preliminary</h2>
-<ul>
-  <li><strong>Due Date:</strong>  Friday, Sept 23 by midnight</li>
-  <li>This assignment must be completed <em>individually</em>.</li>
-</ul>
+  <ul>
+    <li><strong>Due Date:</strong>  Friday, September 23 by midnight</li>
+    <li>This assignment must be completed <em>with one (and only one) other classmate</em>. Knowing how to effectively collaborate with others is a highly valued skill in the computing industry. If you choose to complete this assignment without a partner, 20 points will be deducted.</li>
+  </ul>
 <hr>
 
 <h2>Google Profile - 20 pts</h2>
@@ -44,44 +44,60 @@
 </ul>
 <hr>
 
-<h2>Simple Business Card - 80 points</h2>
+<h2>Cloning a Filesystem - 80 points</h2>
 <h3>Purpose</h3>
-<p>The purpose of this assignment is write a simple Python program that produces a business card.</p>
-
-<h3>Background</h3>
-<p>Imagine you have landed a great summer job, working at a private investment bank. You have an office and all the accoutrements in it that you'd ever desire. Your desk, comfy adjustable pleated leather office chair, sticky notes and pens are in one convenient location...but something is missing from the lot. Your boss wants you to meet with a client today and you'd love to give the client a copy of your contact information, but where did your business cards go?</p>
-
-<p>Fortunately, you recently finished a course with the odd sounding name of <strong>The Joy and Beauty of Computing</strong> that provided you with the skills to make one yourself. You decide to design a business card that includes your company logo, name, address, phone number and corporate email, just in case this client wants to reach you. You don't remember exactly what it's supposed to look like, but luckily you borrow a spare from a coworker and try to make a design that looks exactly like hers:
-</p>
-
-<pre>
-+------------------------------------------------+
-|    |                                           |
-|   -|          Granger, Hermione                |
-|  --|          Securities and Investments       |
-| ---|          Gringotts Bank                   |
-| ---------                                      |
-|  -------      4 Diagon Alley                   |
-|               North Side                       |
-|               London, England 373737           |
-|                                                |
-| Work: (242)-262-2992 @: hermione@gringotts.com |
-+------------------------------------------------+
-</pre>
+<p>The purpose of this assignment is practice using the command line and nano editor to manipulate files and the filesystem.</p>
+<p>This entire project must be completed <em>from the command line</em>. You may not use the file cabinet GUI.</p>
 
 <h3>Assignment</h3>
-<p>Assume that you work for the same company as Hermione. Write a Python program that produces a business card for you with the following characteristics:</p>
-<ul>
-  <li>10 points - Your first and last name is on the card.</li>
-  <li>10 points - Your phone number is on the card.</li>
-  <li>10 points - Your e-mail address is on the card. Assume this address is your-first-name@parasail.com.</li>
-  <li>30 points - Everything else about your business card matches the card above. For each difference, 10 points will be deducted.</li>
-  <li>20 points - The Python program you submit runs properly.</li>
-</ul>
+<p><strong>Part One</strong></p>
+<p>Convert the following outline into a filesystem in your root directory. Add text to files when indicated:</p>
+
+<pre>
+I. Geography
+
+  A. Continents
+    1. North_America
+    2. South_America
+    3. Europe
+    4. Africa
+    5. Asia
+    6. Australia
+    7. Anarctica 
+
+  B. Oceans
+    1. Atlantic_Ocean
+      --text:  "The Atlantic Ocean provides some of the world's most heavily traveled sea routes."
+    2. Pacific_Ocean
+      --text:  "The Pacific Ocean is the largest of the world's five oceans."
+    3. Indian_Ocean
+      --text:  "The Indian Ocean endangered marine species include the dugong, seals, turtles, and whales."
+    4. Arctic_Ocean
+      --text:  "The Arctic Ocean is the smallest of the world's five oceans."
+    5. Southern_Ocean
+      --text:  "The Southern Ocean is deep:  4,000-5,000 meters over most of its extent."
+
+  C. Hemispheres
+    1. Northern
+    2. Southern
+    3. Western
+    4. Eastern
+</pre>
+
+<p><strong>Part Two</strong></p>
+<p>When you have cloned the above filesystem, do the following:</p>
+<ol>
+  <li>Move the North_America directory, the Europe directory, and the Asia directory to the Northern directory.</li>
+  <li>Move the Africa directory, Australia directory and Antarctica directory to the Southern directory.</li>
+  <li>Copy the Africa directory to the Northern directory (since it lies in both hemispheres).</li>
+  <li>Delete the Western directory and Eastern directory.</li>
+  <li>Delete the Continents directory.</li>
+</ol>
 
 <h3>Submission</h3>
-<p>Place the solution in a file named <strong>BusinessCard.py</strong> and submit it to the CS GDrive no later than midnight on Friday, September 23rd.</p>
-<p><strong>Note:</strong> Since late submissions receive no credit, you should submit whatever you have (even if it is not completely finished) by the deadline above. Partial credit for ontime submissions can be earned.</p>
+<p>This project must be completed no later than 5:00 PM on Friday, September 23rd.</p>
+<p>Since late submissions receive no credit, you should submit whatever you have (even if it is not completely finished) by the deadline above. Partial credit for ontime submissions can be earned.</p>
+<p><strong>Note:</strong> Both partners must have the identical filesystem to receive full credit.</p>
 
   <hr>
 

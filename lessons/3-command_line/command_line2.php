@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Project 6</title>
+  <title>Command Line 2</title>
 
 <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -28,28 +28,30 @@
 <!--             EDIT BELOW THIS LINE             -->
 <!-------------------------------------------------->
 
-<h1>Project 6: Kaleidoscope</h1>
-<h2>Preliminary</h2>
-<ul>
-  <li><strong>Due Date:</strong>  TBD by midnight</li>
-  <li>This is a partner assignment. Knowing how to collaborate and work on teams is a vital skill that a computer scientist must learn.</li>
-  <li>To avoid losing 15 points, you must complete this assignment with a classmate and you must both submit the same solution to the CS GDrive.</li>
-  <li>To avoid losing an additional 5 points, explain your contributions to the solution in the CS GDrive comment box.</li>
-</ul>
-<hr>
+<h1>Introduction to the Command Line 2</h1>
+<h3>Prep for Class</h3>
 
-<h3>Turtle Kaleidoscope - 100 points</h3>
-<p>A kaleidoscope uses a set of mirror to multiple one colorful image through reflection. In this assignment, you will simulate a kaleidoscope using the Turtle module. Your program should generate a kaleidoscope-like image of square spirals of different sizes and colors. Here is an example:</p>
-<div style="text-align: center;"><img src="/images/kalSpirals.png" alt="Kaleidoscope Spirals" height="40%" width="40%"></div>
-<p>text</p>
-
-<hr>
-
-<!--  <input type="checkbox" class="task-list-item-checkbox">
-   Read the <a href="http://interactivepython.org/runestone/static/thinkcspy/toc.html#t-o-c">General Introduction</a> through the section <em>More About Programs</em>
+  <input type="checkbox" class="task-list-item-checkbox">
+   Visit <a href="http://linuxcommand.com/index.php">LinuxCommand.org</a> and read the page titled <a href="http://linuxcommand.org/lc3_lts0050.php">"Manipulating Files"</a>.
   <br>
--->
 
+  <input type="checkbox" class="task-list-item-checkbox">
+   Write down any and all questions you have about what you read.
+  <br>
+
+<h3>Check Your Understanding</h3>
+<p><strong>Answer these questions after you complete the section above.</strong></p>
+<ol>
+  <li>Explain the function of the following commands:  <code>cp</code>, <code>mv</code>, <code>rm</code>, and <code>mkdir</code>.</li>
+  <li>What does <code>*</code> do in Linux?  What will the command <code>rm *.txt</code> do?</li>
+  <li>What does the command <code>cp recursion?? /code</code> do?
+  <li>Why do we need to be careful using <code>cp</code>, <code>mv</code>, and <code>rm</code>? What do you think "silently overwritten" means?</li>
+</ol>
+
+<h3>Class Activity (10 minutes)</h3>
+<p>Discuss the commands <code>touch</code> and <code>nano</code>. Then construct a sample filesystem of sophomore boys and girls using the commands from last night's reading.</p>
+
+<hr>
   <?php include($_SERVER["DOCUMENT_ROOT"] . "/includes/footer.html"); ?>
 
 </body>

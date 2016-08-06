@@ -37,11 +37,12 @@
   <li>To avoid losing 15 points, you must complete this assignment with a classmate and you must both individually submit the same solution to the CS GDrive.</li>
   <li>To avoid losing 5 points, explain your contribution to the solution in the CS GDrive comment box when you upload the solution.</li>
 </ul>
+<hr>
 
 <h2>Piet Mondrian Picture - 100 points</h2>
 <p><a href="http://en.wikipedia.org/wiki/Piet_Mondrian">Piet Mondrian</a> was a Dutch artist who liked to place rectangles of various shapes and colors on a canvas. Here is one such <a href="http://www.piet-mondrian.org/composition-with-red-yellow-and-blue.jsp">example</a>. For Assignment 6, you are going to write a Python program that randomly generates Mondrian-like art.</p>
 
-<p>The user should be asked to enter (1) the number of rectangles that should be drawn, (2) the maximum width of a rectangle in pixels and (3) the maximum height of a rectangle in pixels. The Python program, running in IDLE, should then draw the appropriate number of rectangles where each rectangle is randomly colored, randomly positioned and randomly sized. Here is a <a href="http://www.cs.montana.edu/paxton/classes/joy-and-beauty/assignments/hw6/random_art.png"></a>{drawing} that might result if the user requests 200 rectangles with a maximum width of 100 pixels and a maximum height of 100 pixels.</p>
+<p>The user should be asked to enter (1) the number of rectangles that should be drawn, (2) the maximum width of a rectangle in pixels and (3) the maximum height of a rectangle in pixels. The Python program, should then draw the appropriate number of rectangles where each rectangle is randomly colored, randomly positioned and randomly sized. Here is a <a href="http://www.cs.montana.edu/paxton/classes/joy-and-beauty/assignments/hw6/random_art.png">drawing</a> that might result if the user requests 200 rectangles with a maximum width of 100 pixels and a maximum height of 100 pixels.</p>
 
 <h3>Requirements and Grading</h3>
 <p></p>
@@ -61,6 +62,7 @@
 
 <h3>Submission</h3>
 <p>Place the solution in a file named <strong>Mondrian.py</strong> and submit it to the CS GDrive no later than midnight on TBD. Late submissions receive no credit, but partial credit can be earned by making an ontime submission.</p>
+<hr>
 
   <?php include($_SERVER["DOCUMENT_ROOT"] . "/includes/footer.html"); ?>
 

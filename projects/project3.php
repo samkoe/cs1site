@@ -39,9 +39,8 @@
 
 <h2>Dynamic Business Card - 100 points</h2>
   <h3>Purpose</h3>
-  <p>Gringotts was extremely pleased with your business card solution. They would like you to modify that solution so that it works for any first name, last name and phone number.</p>
-  <p>More specifically, your solution should ask the user to enter each of these three pieces of information separately. The program should then print the appropriate business card.</p>
-  <p>Note: It is a common task for a computer scientist to enhance the functionality of an existing program.</p>
+  <p>Gringotts was extremely pleased with your business card solution. They would like you to modify that solution so that it works for any first name, last name and phone number. More specifically, your solution should ask the user to enter each of these three pieces of information separately. The program should then print the appropriate business card.</p>
+  <p><strong>Note:</strong> It is a common task for a computer scientist to enhance the functionality of an existing program.</p>
 
 <h3>Sample Transcript</h3>
   <p>The sample transcript below shows what might happen when the Petra Griffin runs your program. Information to the right of the prompt (>) is entered by the user.</p>

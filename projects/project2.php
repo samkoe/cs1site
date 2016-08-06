@@ -36,14 +36,7 @@
 </ul>
 <hr>
 
-<h2>Google Profile - 20 pts</h2>
-<ul>
-  <li>Add a recognizable photo or sketch to your Google for Education account. <strong>(10 points)</strong> </li>
-  <li>Add some additional information to your Google profile. <strong>(10 points)</strong></li>
-</ul>
-<hr>
-
-<h2>Simple Business Card - 80 points</h2>
+<h2>Simple Business Card - 100 points</h2>
 <h3>Purpose</h3>
 <p>The purpose of this assignment is write a simple Python program that produces a business card.</p>
 

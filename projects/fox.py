@@ -1,4 +1,3 @@
-<pre>
 # -----------------------------------------+
 # Your name, your partner's name           |
 # CS 1, Project 4                          |
@@ -24,5 +23,3 @@ print("WHAT DOES THE FOX SAY?")
 print("Wa pa pa pa pa pa pow!")
 print("Wa pa pa pa pa pa pow!")
 print("Wa pa pa pa pa pa pow!")
-
-</pre>

@@ -30,12 +30,28 @@
 <!-------------------------------------------------->
 
 <h1>Project 9: Manufactoria Simulation</h1>
-<h2>First Heading</h2>
+<h2>Preliminary</h2>
+  <ul>
+    <li><strong>Due Date:</strong> TBD no later than midnight.</li>
+    <li>You must complete this assignment individually.</li>
+  </ul>
+<hr>
 
-<!--  <input type="checkbox" class="task-list-item-checkbox">
-   Read the <a href="http://interactivepython.org/runestone/static/thinkcspy/toc.html#t-o-c">General Introduction</a> through the section <em>More About Programs</em>
-  <br>
--->
+<h2>Manufactoria Simulation - 100 points</h2>
+<p>Check out the logic game <a href="http://pleasingfungus.com/Manufactoria/">Manufactoria</a> and see if you can solve the first three puzzles. Feel free to solve additional puzzles if you like!</p>
+<p>For this assignment, we will use Python to simulate the game of Manufactoria to solve two different problems. Use <a href="/projects/manufactoria.py">Manufactoria.py</a> as the starting point. The strings to be simulated will consist of some combination of reds ("r") and blues ("b"). For example, the string "brrbb" represents the following sequence of colors: first blue, then red, then red, then blue and finally blue.</p>
+
+<h3>Requirements and Grading</h3>
+<ul>
+  <li>40 points - The function three_or_more_blues is correct. The function should accept any string that contain three or more blues. For example, "brbrb" should be accepted but "rrbbrrr" should not be. For each incorrect answer, 10 points will be deducted.</li>
+  <li>40 points - The function alternating_colors is correct. Let "x" be the starting symbol (either "r" or "b") and let "y" be the other color ("r" if "x" is "b" and "b" if "x" is "r"). The function should accept strings that conform to the following pattern: x, xy, xyx, xyxy, etc. For each incorrect answer, 10 points will be deducted.</li>
+  <li>10 points - The Python solution is easy to understand and does not contain unnecessary code.</li>
+  <li>10 points - Comments are used appropriately in the solution.</li>
+</ul>
+
+<h3>Submission</h3>
+<p>Place the solution in a file named <strong>Manufactoria.py</strong> and submit it in the CS GDrive Dropbox no later than 11:59 p.m. on Friday, October 30th. Late submissions receive no credit, but partial credit can be earned by making an ontime submission.</p>
+<hr>
 
   <?php include($_SERVER["DOCUMENT_ROOT"] . "/includes/footer.html"); ?>
 

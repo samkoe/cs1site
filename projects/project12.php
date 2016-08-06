@@ -38,7 +38,7 @@
 </ul>
 <hr>
 
-<h2>Assignment</h2>
+<h2>Special Topics - 100 points</h2>
 <p>Create a Python program that does something fun and interesting. The program should reflect both what you have learned in this class, as well as your prior experience with computational thinking. Have fun!</p>
 
 <h3>Requirements and Grading</h3>

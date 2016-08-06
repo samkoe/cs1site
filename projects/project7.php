@@ -35,6 +35,7 @@
   <li>You must complete this assignment individually.</li>
 </ul>
 <hr>
+
 <h2>Minecraft Drawing - 100 points</h2>
 <p>In this assignment, you will continue your foray into the world of Python Turtle Graphics. Instead of creating a single Minecraft tile as in Assignment 3, you will use Python <strong>functions</strong> to create two or more types of Minecraft tiles. Once the tile functions are created, you should use them to create an elaborate Minecraft drawing.</p>
 

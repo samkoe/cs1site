@@ -31,7 +31,7 @@
 
 <!-- RECURSION TREE PICTURE -->
 <div class="picture">
-  <img class="img-responsive img-circle" src="images/recursion_tree.png" alt="I love recursion!" />
+  <img class="img-responsive img-circle" src="/images/recursion_tree.png" alt="I love recursion!" />
 </div>
 <!-- COURSE INFO SECTION -->
 
